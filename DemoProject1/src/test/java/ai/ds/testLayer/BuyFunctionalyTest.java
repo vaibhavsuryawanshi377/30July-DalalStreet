@@ -1,9 +1,9 @@
-package testLayer;
+package ai.ds.testLayer;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import testBase.TestBase;
+import ai.ds.testBase.TestBase;
 
 public class BuyFunctionalyTest extends TestBase{
 	

@@ -1,9 +1,9 @@
-package testLayer;
+package ai.ds.testLayer;
 
 import static org.testng.Assert.assertNotEquals;
 import org.testng.annotations.Test;
 
-import testBase.TestBase;
+import ai.ds.testBase.TestBase;
 
 public class LoginTest extends TestBase{
 	String expected_url="https://apps.dalalstreet.ai/dashboard";

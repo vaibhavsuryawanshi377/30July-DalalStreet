@@ -1,4 +1,4 @@
-package utility;
+package ai.ds.utility;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.PageFactory;
 
-import testBase.TestBase;
+import ai.ds.testBase.TestBase;
 
 public class UtilityClass  extends TestBase{
 	

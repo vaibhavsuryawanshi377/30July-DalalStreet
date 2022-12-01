@@ -1,10 +1,10 @@
-package utility;
+package ai.ds.utility;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import testBase.TestBase;
+import ai.ds.testBase.TestBase;
 
 public class ListenerSetup extends TestBase implements ITestListener {
 

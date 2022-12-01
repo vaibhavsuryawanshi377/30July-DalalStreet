@@ -1,4 +1,4 @@
-package testBase;
+package ai.ds.testBase;
 
 import java.time.Duration;
 import java.util.logging.Logger;
@@ -14,11 +14,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import ai.ds.pageLayer.DashboardPage;
+import ai.ds.pageLayer.ExchangePage;
+import ai.ds.pageLayer.LoginPage;
+import ai.ds.pageLayer.TransactionPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import pageLayer.DashboardPage;
-import pageLayer.ExchangePage;
-import pageLayer.LoginPage;
-import pageLayer.TransactionPage;
 
 public class TestBase {
 	
@@ -34,7 +34,7 @@ public class TestBase {
 	public void start()
 	{
 		logger= Logger.getLogger("DalalStreet Auto framework");
-		PropertyConfigurator.configure("log4j.properties");
+		PropertyConfigurator.configure("Log4j.properties");
 		logger.info("Framework execution started");
 	}
 	

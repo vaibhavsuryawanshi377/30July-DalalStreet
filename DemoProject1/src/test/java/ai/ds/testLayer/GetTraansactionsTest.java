@@ -1,9 +1,9 @@
-package testLayer;
+package ai.ds.testLayer;
 
 import org.testng.annotations.Test;
 
-import testBase.TestBase;
-import utility.UtilityClass;
+import ai.ds.testBase.TestBase;
+import ai.ds.utility.UtilityClass;
 
 public class GetTraansactionsTest extends TestBase{
 	
