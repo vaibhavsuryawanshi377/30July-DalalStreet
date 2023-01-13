@@ -12,7 +12,6 @@ public class LoginTest extends TestBase{
 	{
 		login.enterEmailAdrees();
 		login.enterPassword();
-		Thread.sleep(1000);
 		login.clickOnLogin();
 		Thread.sleep(3000);
 		String actual_url= login.getCurrentURL();
